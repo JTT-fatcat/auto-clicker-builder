@@ -23,6 +23,7 @@ source.include_patterns = assets/*,images/*.png
 
 # (str) Application versioning (method 1)
 version = 0.1
+android.ndk = 25b
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
