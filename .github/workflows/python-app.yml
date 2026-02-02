@@ -21,6 +21,7 @@ jobs:
 
     - name: Install Buildozer dependencies
       run: |
+        pip install --upgrade cython
         sudo apt-get update
         sudo apt-get install -y \
             build-essential \
@@ -54,4 +55,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: android-apk
-        path: 连点器/bin/*.apk
+        path: bin/*.apk
