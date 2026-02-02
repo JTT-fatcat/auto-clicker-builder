@@ -255,8 +255,6 @@ android.bootstrap = sdl2
 # (str) Android ndk api
 #android.ndk_api =
 
-# (str) Android permissions
-android.permissions = SYSTEM_ALERT_WINDOW
 
 # (str) Android preserve apk path
 #android.preserve_apk_path =
