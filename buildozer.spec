@@ -253,7 +253,8 @@ android.bootstrap = sdl2
 #android.ndk =
 
 # (str) Android ndk api
-#android.ndk_api =
+android.ndk_api =24
+android.api = 33
 
 
 # (str) Android preserve apk path
