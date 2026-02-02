@@ -47,7 +47,7 @@ jobs:
 
     - name: Build APK
       run: |
-        cd 连点器
+        cd .
         buildozer android debug
 
     - name: Upload APK
